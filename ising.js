@@ -37,8 +37,7 @@ function simulation(){
     updateScreen();
     
     // creating a data table with average magnetizations
-    // the model won't run smoothly with this code uncommented, so leave it like this unless
-    // you want a graph of average magnetizations vs time
+    // the model won't run smoothly with this code uncommented, so leave it like this unless you want a graph of average magnetizations vs time
 
     // for (var t=6; t>0; t-=0.1){
     //     T=t; 
