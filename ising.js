@@ -1,8 +1,4 @@
-// ***********************************************
-// Name: Sara Shen
-//
-// Program Description: This program creates a simulation of the Ising Model with 2 colors
-// ***********************************************
+ //This program creates a simulation of the Ising Model with 2 colors
 
 // creating square grid and data table, setting the temperature T
 const arr = [];
@@ -36,31 +32,6 @@ function simulation(){
     monteCarlo();
     updateScreen();
     
-    // creating a data table with average magnetizations
-    // the model won't run smoothly with this code uncommented, so leave it like this unless you want a graph of average magnetizations vs time
-
-    // for (var t=6; t>0; t-=0.1){
-    //     T=t; 
-    //     frameMags = [];
-    //     var TMavg = 0;
-    //     for (var f=0; f<1000; f++) {    
-    //         monteCarlo();
-    //         // update lattice;
-    //         updateScreen(); 
-    //         if(f%10==0) {   
-    //             magnet = magnetization();
-    //             frameMags.push(magnet);
-    //         }
-    //     }
-    //     TMavg = Math.abs(avgM()); 
-    //     var newRow = dataTable.addRow();
-    //     newRow.setString('Temperature', T); 
-    //     newRow.setString('Magnetizations', TMavg);
-    // }
-
-    // saveTable(dataTable, "ising", "csv"); 
-
-}
 
 
 function monteCarlo () {
