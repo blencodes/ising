@@ -1,7 +1,6 @@
 // ***********************************************
-// Name: Sara Shen
 //
-// Program Description: This program creates a simulation of the Ising Model with 3 colors
+// This program creates a simulation of the Ising Model with 3 colors
 // ***********************************************
 
 
